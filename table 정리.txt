@@ -1,0 +1,15 @@
+member ( seq, id, pw, phone, email, name, nickname, address1, zonecode, address2, sexual, signupDate, warningCount)
+
+Common_board(seq, id, writer, write_date, title, contents, viewCount, notice) 
+
+q&a_board(seq, id, writer, write_date, title, contents, secret)
+
+q&a_answer(seq, contents, write_date)
+
+game ( gamename, id, score)
+
+reply( 예제 그대로)
+
+
+rank(seq, id, nickname, score, gamename) + time 추가할지는 나중에
+
